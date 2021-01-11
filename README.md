@@ -1,6 +1,6 @@
 # Nand2Tetris
 
-Construindo um computador do zero, hardware e software, para estudar e entender como as abstrações que lidamos na programação de fato funcionam por debaixo dos panos.
+Projeto de Noam Nisan e Shimon Schocken que propõe a construção de um computador do zero, hardware e software, para estudar e entender como as abstrações que lidamos na programação de fato funcionam por debaixo dos panos.
 
 [website do projeto](https://www.nand2tetris.org/)
 
@@ -19,6 +19,6 @@ Construindo um computador do zero, hardware e software, para estudar e entender 
   * _Project 11_: Compiler II: Code Generation
   * _Project 12_: Operating System
 
-### Materiais que utilizei pelo caminho
+### Materiais que estou utilizando pelo caminho
 
   * [Vídeo sobre Karnaugh Maps (K-maps)](https://www.youtube.com/watch?v=RO5alU6PpSU)
