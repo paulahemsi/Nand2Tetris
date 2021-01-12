@@ -1,2 +1,3 @@
-*/*.cmp
-*/*.tst
+*.cmp
+*.tst
+*.out
