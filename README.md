@@ -3,10 +3,15 @@
 Projeto de Noam Nisan e Shimon Schocken que propõe a construção de um computador do zero, hardware e software, para estudar e entender como as abstrações que lidamos na programação de fato funcionam por debaixo dos panos.
 
 [website do projeto](https://www.nand2tetris.org/)
+[vídeos no coursera](https://www.coursera.org/learn/build-a-computer?utm_medium=email&utm_source=other&utm_campaign=opencourse.welcome.build-a-computer.~opencourse.welcome.ct7G8DVLEeWfzhKP8GtZlQ.)
 
 ### Temas por projeto
 
   * _Project 01_: Boolean Logic
+                  álgebra boleana, funções boleanas, leis para simplificação de funções, tabela da verdade e a construção dos chips básicos que usaremos nos próximos projetos usando apenas o Nand como ponto de partida. Chips construídos (família dos Mux sempre dando mais trabalho o.O):
+                  **Elementary Logic Gates**: Not, And, Or, Xor, Mux e DMux
+                  **16-bit variants**: Not16, And16, Or16, Mux16
+                  **Multi-way variants**: Or8Way, Mux4Way16, Mux8Way16, DMux4Way, DMux8Way
   * _Project 02_: Boolean Arithmetic
   * _Project 03_: Sequential Logic
   * _Project 04_: Machine Language
@@ -21,4 +26,5 @@ Projeto de Noam Nisan e Shimon Schocken que propõe a construção de um computa
 
 ### Materiais que estou utilizando pelo caminho
 
-  * [Vídeo sobre Karnaugh Maps (K-maps)](https://www.youtube.com/watch?v=RO5alU6PpSU)
+  * [Vídeo sobre Karnaugh Maps (K-maps)](https://www.youtube.com/watch?v=RO5alU6PpSU) - foi fundamental para entender como chegar na função boleana construindo o k-map de duas dimensões.
+  * comando *diff* no bash para comparar a saída com o resultado esperado e confirmar que o chip se comportou como deveria (```diff saida.out teste.tst > comparativo.diff```)
