@@ -52,6 +52,7 @@ CHIP ALU {
     And16(a=xOrNotX, b=yOrNotY, out=xAndY);
     Mux16(a=xAndY, b=xPlusY, sel=f, out=afterF);
     Not16(in=afterF, out=NotAfterF);
-    Mux16(a=afterF, b=NotAfterF, sel=no, out=out);
-    //fazer zr e ng
+    Mux16(a=afterF, b=NotAfterF, sel=no, out[0..7]=out1, out[8..15]=out2, out[15]=ng, out=testZr, out=out);
+    Or16Way(in=testZr, out=notZr);
+    Not(in=notZr, out=zr);
 }
